@@ -1,0 +1,18 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+.mat-sidenav {
+    height: 100%;
+    width: 13%;
+ }
+
+ mat-sidenav-content{
+    height: 88vh;
+ }
+
+.mat-list-item:hover{
+    background-color: #f44336;
+    color: #fbfbfb;
+    /* Button color is #f44336 and #3f51b5 */
+}

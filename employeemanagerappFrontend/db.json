@@ -1,0 +1,49 @@
+{
+  "employee": [
+    {
+      "id": 1,
+      "empid": "1",
+      "empName": "chetan",
+      "empRole": "2342d",
+      "empCategory": "noting",
+      "empDept": "health care",
+      "empSalary": "25254"
+    },
+    {
+      "id": 2,
+      "empid": "2",
+      "empName": "Gitesh",
+      "empRole": "342fgd",
+      "empCategory": "sdafas",
+      "empDept": "social",
+      "empSalary": "64356"
+    },
+    {
+      "id": 3,
+      "empid": "3",
+      "empName": "chetan",
+      "empRole": "2342d",
+      "empCategory": "noting",
+      "empDept": "banking",
+      "empSalary": "35345"
+    },
+    {
+      "empid": "23432",
+      "empName": "vaishnavi",
+      "empRole": "",
+      "empCategory": "",
+      "empDept": "",
+      "empSalary": "",
+      "id": 4
+    },
+    {
+      "empid": "34",
+      "empName": "sonu",
+      "empRole": "Developer",
+      "empCategory": "Junior engineer",
+      "empDept": "life science and health care",
+      "empSalary": "1200000",
+      "id": 5
+    }
+  ]
+}

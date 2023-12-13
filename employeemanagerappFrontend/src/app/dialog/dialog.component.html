@@ -1,0 +1,41 @@
+<form [formGroup]="employeeForm" class="form-container">
+
+  <h1 mat-dialog-title>Edit Employee Form</h1>
+  <div mat-dialog-content>
+    <p>
+      <mat-form-field appearance="outline">
+        <mat-label>Employee id</mat-label>
+        <input formControlName="empid" matInput placeholder="Placeholder">
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Employee Name</mat-label>
+        <input formControlName="empName" matInput placeholder="Placeholder">
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Employee Role</mat-label>
+        <input formControlName="empRole" matInput placeholder="Placeholder">
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Employee Category</mat-label>
+        <input formControlName="empCategory" matInput placeholder="Placeholder">
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Employee Department</mat-label>
+        <input formControlName="empDept" matInput placeholder="Placeholder">
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Employee Salary</mat-label>
+        <input formControlName="empSalary" matInput placeholder="Placeholder">
+      </mat-form-field>
+    </p>
+  </div>
+  <div mat-dialog-actions [align]="'end'">
+    <button mat-raised-button color="warn" mat-dialog-close>Close</button>
+    <button mat-raised-button color="primary" (click)="updateEmployee(employeeForm.value)">Update</button>
+  </div>
+</form>
